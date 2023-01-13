@@ -1,0 +1,25 @@
+{
+  "name": "ngatngay/crawler-php",
+  "type": "application",
+  "description": "A simple PHP Web Crawler",
+  "minimum-stability": "stable",
+  "keywords": ["crawler"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "PMTpro",
+      "email": "ngatngay@ngatngay.net"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "symfony/browser-kit": "^6.2",
+    "symfony/css-selector": "^6.2",
+    "symfony/dom-crawler": "^6.2",
+    "symfony/http-client": "^6.2",
+    "symfony/mime": "^6.2"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
